@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1>Simple Markdown Previewer</h1>
+            <p>Write Markdown on the left and preview on the right.</p>
+        </header>
+
+        <div class="editor-container">
+
+            <div class="box">
+                <h2>Markdown Editor</h2>
+
+                <textarea placeholder="# Welcome
+
+## This is a Markdown Previewer
+
+**Bold Text**
+
+*Italic Text*
+
+- HTML
+- CSS
+- JavaScript
+
+[OpenAI](https://openai.com)
+
+"></textarea>
+            </div>
+
+            <div class="box">
+                <h2>Preview</h2>
+
+                <div class="preview">
+                    <h1>Welcome</h1>
+
+                    <h2>This is a Markdown Previewer</h2>
+
+                    <p><strong>Bold Text</strong></p>
+
+                    <p><em>Italic Text</em></p>
+
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+
+                    <a href="#">OpenAI</a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
